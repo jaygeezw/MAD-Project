@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Accident"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            android:textColor="#24345B"
+            android:background="#708090"
+            android:padding="18dp" />
+
+        <Button
+            android:id="@+id/btnCapturePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="📷&#10;Tap to Capture Photo"
+            android:textSize="19sp"
+            android:textColor="#18234B"
+            android:backgroundTint="#E5EAFF"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:id="@+id/ivCapturedPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Captured accident photograph"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accident Location:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#18234B"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnGetLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Get Location"
+            android:textColor="#1246B5"
+            android:backgroundTint="#E5EAFF"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location not selected"
+            android:textSize="14sp"
+            android:textColor="#424B65"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#18234B"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Enter accident details..."
+            android:gravity="top|start"
+            android:inputType="textMultiLine|textCapSentences"
+            android:padding="12dp"
+            android:backgroundTint="#3520B9"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSendAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➤ Send Alert"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E51E35"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

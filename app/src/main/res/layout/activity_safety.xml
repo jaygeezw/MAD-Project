@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/alert_splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛡️ Road Safety Tips"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#18234B"
+            android:layout_marginTop="35dp"
+            android:padding="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your safety matters. Follow these simple guidelines to prevent road accidents and protect lives."
+            android:textSize="16sp"
+            android:textColor="#424B65"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚦 GENERAL ROAD SAFETY"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#3F6F9E"
+            android:padding="13dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Always obey traffic signs and signals.\n\n• Observe speed limits at all times.\n\n• Keep a safe distance from other vehicles.\n\n• Never drive under the influence of alcohol or drugs.\n\n• Avoid using mobile phones while driving.\n\n• Always remain alert and watch the road."
+            android:textSize="16sp"
+            android:textColor="#18234B"
+            android:background="#EAF2FF"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚗 DRIVER SAFETY"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#287A6B"
+            android:padding="13dp"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Always wear your seatbelt.\n\n• Check your brakes, tyres and lights before travelling.\n\n• Do not overspeed or overtake carelessly.\n\n• Avoid driving when tired or sleepy.\n\n• Use indicators when turning or changing lanes.\n\n• Maintain your vehicle regularly."
+            android:textSize="16sp"
+            android:textColor="#18234B"
+            android:background="#E7F5F0"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👥 PASSENGER SAFETY"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#536A8B"
+            android:padding="13dp"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Always wear a seatbelt.\n\n• Wear a helmet when travelling on a motorcycle.\n\n• Never distract the driver.\n\n• Do not overcrowd a vehicle.\n\n• Keep your hands and head inside the vehicle."
+            android:textSize="16sp"
+            android:textColor="#18234B"
+            android:background="#EDF1FA"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚶 PEDESTRIAN SAFETY"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#B77932"
+            android:padding="13dp"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Always use designated pedestrian crossings.\n\n• Look both ways before crossing the road.\n\n• Avoid using headphones when crossing busy roads.\n\n• Walk on pavements whenever available.\n\n• Wear reflective clothing when walking at night."
+            android:textSize="16sp"
+            android:textColor="#18234B"
+            android:background="#FFF3E5"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚨 WHAT TO DO AFTER AN ACCIDENT"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#D50000"
+            android:padding="13dp"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Stay calm and assess the situation.\n\n2. Move to a safe place if possible.\n\n3. Check whether anyone is injured.\n\n4. Call emergency medical services if anyone is injured.\n\n5. Use the Accident Alert application to report the accident and share your location.\n\n6. Do not move seriously injured people unless they face immediate danger.\n\n7. Warn approaching traffic if it is safe to do so.\n\n8. Cooperate with emergency responders."
+            android:textSize="16sp"
+            android:textColor="#18234B"
+            android:background="#FCEBEC"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ IMPORTANT REMINDERS"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#E85D75"
+            android:padding="13dp"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Never leave an accident victim without seeking help.\n\n• Do not interfere with accident investigations.\n\n• Avoid crowding the accident scene.\n\n• Always give accurate information when reporting an accident.\n\n• Keep emergency contacts readily available."
+            android:textSize="16sp"
+            android:textColor="#18234B"
+            android:background="#FFF0F2"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOUR LIFE MATTERS!\n\nDrive Carefully. Stay Alert. Save Lives. ❤️"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1246B5"
+            android:gravity="center"
+            android:background="#E5ECFF"
+            android:padding="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp" />
+
+    </LinearLayout>
+
+</ScrollView>

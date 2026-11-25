@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alert_splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearby Alerts"
+            android:textSize="23sp"
+            android:layout_marginTop="70dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#708090"
+            android:padding="18dp" />
+
+        <!-- Map placeholder -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#D9E8CF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="📍&#10;&#10;MAP VIEW&#10;&#10;Nearby accident locations"
+                android:textSize="22sp"
+                android:textColor="#334B35"
+                android:gravity="center"
+                android:background="#D9E8CF" />
+
+        </FrameLayout>
+
+        <!-- Accident reports section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saved Accident Reports"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#18234B" />
+
+            <!-- Empty state -->
+            <TextView
+                android:id="@+id/tvNoReports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No accident reports available."
+                android:textSize="16sp"
+                android:textColor="#777777"
+                android:gravity="center"
+                android:padding="25dp"
+                android:visibility="gone" />
+
+            <!-- Reports will be loaded here -->
+            <LinearLayout
+                android:id="@+id/reportsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/btnRefreshAlerts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Refresh Alerts"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#E51E35"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/alert_splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Emergency Services"
+            android:textSize="25sp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#708090"
+            android:padding="18dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E5EAFF"
+            android:padding="15dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🚑 Ambulance Service"
+                android:textSize="21sp"
+                android:layout_marginTop="70dp"
+                android:textStyle="bold"
+                android:textColor="#18234B"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emergency Medical Help"
+                android:textSize="16sp"
+                android:textColor="#424B65"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCallAmbulance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📞 Call Ambulance"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#D50000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E5EAFF"
+            android:padding="15dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🚛 Wreckage Removal Team"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="#18234B"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear the accident scene"
+                android:textSize="16sp"
+                android:textColor="#424B65"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCallWreckage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📞 Call Wreckage Team"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FF3333" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E5EAFF"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🔍 Forensic Department"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="#18234B"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Investigate the accident scene"
+                android:textSize="16sp"
+                android:textColor="#424B65"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCallForensic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📞 Call Forensic Department"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FF6666" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
